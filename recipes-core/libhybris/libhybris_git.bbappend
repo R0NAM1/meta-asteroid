@@ -10,4 +10,4 @@ do_install:append () {
 # libwayland-egl has been moved to wayland 1.15+
   rm -f ${D}${libdir}/libwayland-egl*
   rm -f ${D}${libdir}/pkgconfig/wayland-egl.pc
- }
+}
